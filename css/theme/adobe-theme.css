@@ -194,20 +194,20 @@ section:nth-child(1) h2 {
 @supports (background-blend-mode: multiply) {
   .reveal .state-background {
     background: #384042 center top no-repeat;
-    background-image: url(../../resources/grunge-luminance-1.jpg), -webkit-linear-gradient(top, #858585, #858585);
-    background-image: url(../../resources/grunge-luminance-1.jpg), linear-gradient(top, #858585, #858585);
+    background-image: url(../../resources/washington_state_2.png), -webkit-linear-gradient(top, #858585, #858585);
+    background-image: url(../../resources/washington_state_2.png), linear-gradient(top, #858585, #858585);
     background-size: cover;
     background-blend-mode: multiply; }
 
   .blendingbg .reveal .state-background {
-    background-image: url(../../resources/grunge-luminance-1.jpg), -webkit-linear-gradient(top, #206b7e, #0a3647);
-    background-image: url(../../resources/grunge-luminance-1.jpg), linear-gradient(top, #206b7e, #0a3647);
+    background-image: url(../../resources/washington_state_2.png), -webkit-linear-gradient(top, #206b7e, #0a3647);
+    background-image: url(../../resources/washington_state_2.png), linear-gradient(top, #206b7e, #0a3647);
     background-size: cover; }
 
   .maskingbg .reveal .state-background {
     background: #1D6872 top center no-repeat;
-    background-image: url(../../resources/grunge-luminance-1.jpg), -webkit-linear-gradient(top, #71a3a3, #1d6872);
-    background-image: url(../../resources/grunge-luminance-1.jpg), linear-gradient(top, #71a3a3, #1d6872);
+    background-image: url(../../resources/washington_state_2.png), -webkit-linear-gradient(top, #71a3a3, #1d6872);
+    background-image: url(../../resources/washington_state_2.png), linear-gradient(top, #71a3a3, #1d6872);
     background-size: cover; } }
 .photo .reveal section img {
   background: rgba(255, 255, 255, 0.12);
