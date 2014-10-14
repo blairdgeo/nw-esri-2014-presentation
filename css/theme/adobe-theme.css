@@ -294,7 +294,7 @@ input[type="color"] {
 
 #blending-comparison figure {
   width: 100%;
-  height: 9em;
+  height: 20em;
   padding: 0;
   margin: 3rem 0 0;
   position: relative;
@@ -307,7 +307,11 @@ input[type="color"] {
   background: linear-gradient(top, rgba(211, 19, 173, 0.78), rgba(255, 213, 0, 0.8)), url("../../resources/blending-source.jpg") top left no-repeat;
   background-size: cover, cover; }
 #blending-comparison .solid {
-  background: url("../../resources/blending-source.jpg") top left no-repeat;
+  background: url("../../resources/city_of_bend_responsive.png") top left no-repeat;
+  background-color: rgba(214, 121, 23, 0.7);
+  background-size: cover; }
+  #blending-comparison .solid2 {
+  background: url("../../resources/water_cruiser_responsive.png") top left no-repeat;
   background-color: rgba(214, 121, 23, 0.7);
   background-size: cover; }
 #blending-comparison .mock-overlay {
@@ -378,7 +382,7 @@ input[type="color"] {
     -webkit-filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.5));
     -moz-filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.5));
     filter: drop-shadow(0 1em 0.5em rgba(0, 0, 0, 0.5));
-    background-image: url("../../resources/blending-source.jpg");
+    background-image: url("../../resources/water_cruiser_responsive.png");
     background-repeat: none;
     background-size: cover;
     background-color: #d67917;
@@ -410,7 +414,7 @@ input[type="color"] {
   outline: none;
   font-family: bangers, sans-serif;
   color: white;
-  opacity: 1;
+  opacity: 0.4;
   mix-blend-mode: difference; }
 
 /* Toggle to default state */
